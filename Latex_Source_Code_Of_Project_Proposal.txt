@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+
+\begin{document}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.35]{unnamed.png}\\ \vspace{0.1in}
+{\large NORTH SOUTH UNIVERSITY \\ \small DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING }\\
+\vspace{0.1in}
+{CSE311L \\ DATABASE SYSTEMS LAB \\ SECTION : 02} \\ 
+\vspace{0.1in}
+{\small SEMESTER : SUMMER 2021}\\
+\vspace{0.15in}
+{\large PROJECT PROPOSAL}\\ \vspace{0.09in}{ON}\\ 
+\vspace{0.1in}
+{\large{\textbf{\emph{\underline{"RAILWAY MANAGEMENT SYSTEM"}}}}}
+\begin{center}
+{\emph{Submitted By :}}\\ 
+\vspace{0.1in}
+\begin{tabular}{c c}
+\vspace{0.1in}
+NAME & ID\\ 
+\large MD. Fatin Habib Nihal   & 1911350642\\ 
+\large Faria Hassan Meem       & 1912524642
+\end{tabular}\\
+\vspace{0.25in}
+{\textbf{\emph{\large Course Faculty:}}}\\
+{MR. AHMED FAHMIN (AFN1)}\\
+{\emph{LECTURER}}\\ 
+\vspace{0.2in}
+{\textbf{\emph{Lab Instructor:}}}\\
+{NAZMUL ALAM DIPTO}\\
+\vspace{0.5in}
+\large{Submission Date: 12 July 2021}
+\end{center}
+\end{figure}
+\clearpage
+\section{\emph{INTRODUCTION:}}
+Bangladesh is a fascinating country with a rich and varied history and at present fairly few tourists.  Bangladesh has a largely British-built rail network linking most major towns and cities, including Dhaka, Chittagong and Sylhet. This project is about creating a database about the Railway Management System. The railway management system facilitates the passengers to inquire about the trains available on the basis of source and destination, booking and cancellation of tickets, inquire about the status of the booked or reserved seats and empty seats or cabins etc. Our aim is to design and develop a database maintaining the records of different trains, stations, and passengers.\\
+\section{\emph{OBJECTIVE:}}
+The goals and objectives are to create and develop a database that keeps track of different trains, train status, and passengers. The number, name, source, destination, and days on which the train is available are all included in the train record, whereas the train status record includes the dates for which tickets can be booked, the total number of seats available, and the number of seats already booked. Here people can easily purchase a ticket from homes.
+
+We will develop a complete database system that will fulfill the requirements of train management, including reservations, schedules, customer data, and blog management to let our customers to submit comments and reviews on the service provided by the railway online system.\\
+\section{\emph{TARGET CUSTOMERS:}}
+Passengers: People of all stages are the main focused thing.They  will use our systems for purchase a ticket they will notify about their ticket confirmation and the seat or cabin numbers,with the arrival time of the train.\\
+\section{\emph{VALUE PROPOSITION:}}
+Our system can successfully give information on trains; find trains running between two Stations, book tickets and cancel tickets. It will help people by saving their time from going to station for reserving a seat or cabins. This system could be used for official train booking. However several other features could be added like booking meals on trains etc. Also payment gateways have to be implemented to make sure the transactions happen securely.\\
+\section{\emph{WEB APPLICATION FEATURES AND DESCRIPTION:}}
+At first the web page will be open with view page for the customers. There will be two options one is sign in and the other is create account option. A person has to open an account for booking a seat. After creating an account he/she can: \\ 
+•	Book a ticket.\\
+•	Can cancel a booked ticket.\\
+•	Can check fares before booking.\\
+•	Can check how many times they use the Train.\\
+•	Can see the available trains and seats.\\
+•	Can give suggestions and reviews about the service.\\
+•	Can check their departure time and reaching time.\\
+•	Passengers will receive notifications about their ticket conformation and arrival time of the train.\\
+
+\section{\emph{TOOLS AND RESOURCES:}}
+•	HTML\\
+•	MySQL\\
+•	PHP\\
+•	WEB SERVER\\
+
+\section{\emph{CHALLENGES:}}
+As our database contains a lot of information the main challenge here will be the money. To handle this kind of database we have to pay a lot of money. Besides we use the online transactions system of money it will be little difficult to maintain it properly. As if we are taking information from the people we have to justify that the information is real or fake. So sometimes it will be difficult. As our main focus to the customer usage so the UI should be simple so that normal people can also use it.
+\end{document}
