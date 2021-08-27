@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="../source/style.css">
+  </head>
+  <body>
+   <div class = "main">
+    <a href="../code.html">Home</a>
+    <a href="#"> Log In</a>
+    <a href="./Register.html"> Register</a>
+    <a href="./Contact.html">Contact Us </a><br>
+  </div>
+  <div class = "container">
+      <h1>LOG IN</h1>
+      <form name = "loginform" method = "post" onsubmit="return validateForm()">
+        <input type="text" id="uname" name="name" placeholder="User Name" required >
+        <div id = name_error>Please fill your username correctly</div><br><br>
+        <input type="password" id="psd" name="password" placeholder="Password" required>
+          <div id = pass_error>Please fill your password correctly</div>
+        <input type="submit"  value="Log In"><br>
+
+    <a  href="./Changepassword.html">Forget Password?</a><br><br><br>
+    <a  href="./Register.html">Create an account</a>
+
+</form>
+</div>
+<script type="text/javascript">
+
+  function validateForm(){
+    var username= document.forms["loginform"]["name"].value;
+    var pass= document.forms["loginform"]["password"].value;
+
+    var name_error = document.getElementById("name_error");
+    var pass_error = document.getElementById("pass_error");
+
+    if (username.length<6){
+      name_error.style.display = "block";
+      username.focus();
+      return false;
+    }
+    if (pass.length<8){
+      pass_error.style.display = "block";
+      pass.focus();
+      return false;
+    }
+  }
+</script>
+  </body>
+</html>

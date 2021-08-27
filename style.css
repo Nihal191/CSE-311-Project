@@ -1,0 +1,327 @@
+.heading{
+  text-transform: uppercase;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+
+ .main{
+   text-align: right;
+   font-weight: 900;
+   font-family: sans-serif;
+
+ }
+
+
+ .main a{
+   color: white;
+   text-decoration: none;
+   font-weight: 900;
+
+ }
+ .main a:hover{
+   text-decoration: underline;
+
+ }
+ body{
+   background-image:url('../Train.jpg');
+   background-attachment: fixed;
+   background-size: auto;
+}
+
+.container{
+  width: 300px;
+  height: 480px;
+  background-color: #301d1d;
+  position: absolute;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: white;
+  top:12%;
+  right : 25%;
+  left: 25%;
+  bottom: 25%;
+  opacity: 0.68;
+  text-align: center;
+}
+.container h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+}
+
+.container input[type = "text"]{
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+
+}
+
+.container input[type = "password"]{
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+
+
+}
+.container #name_error,.container #pass_error{
+  width: 250px;
+  padding: 0px;
+  margin-top: 10px;
+  color: white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
+
+
+.container input[type = "submit"]{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.container input[type = "submit"]:hover{
+  background-color:  #48C9B0;
+}
+
+.container a{
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+  margin: 20px auto;
+
+}
+.container a:hover{
+  text-decoration: underline;
+}
+
+.changepassword{
+  width: 400px;
+  height: 350px;
+  background-color: #301d1d;
+  position: absolute;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid;
+  top:25%;
+  right:25%;
+  left:25%;
+  bottom:25%;
+  opacity: 0.68;
+  text-align: center;
+}
+
+.changepassword h2{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.changepassword input{
+  width: 250px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  text-align: center;
+  margin: 10px auto;
+
+}
+
+.changepassword label{
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.changepassword button[type = submit]{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px auto;
+
+}
+
+.changepassword button[type = submit]:hover{
+  background-color:  #48C9B0;
+}
+
+.registration{
+  width: 600px;
+  height: 550px;
+  background-color: #301d1d;
+  position: absolute;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: white;
+  top:5%;
+  right : 25%;
+  left: 25%;
+  bottom: 25%;
+  opacity: 0.68;
+  text-align: center;
+
+}
+
+.registration h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.registration label{
+  text-align: left;
+  padding-right: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.registration input[type = text]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  align-content: left;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = email]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  align-content: left;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = phone]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = Date]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = textarea]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = password]{
+  width: 400px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: none;
+  outline: 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.registration input[type = submit]{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.registration input[type = submit]:hover {
+background-color:  #48C9B0;
+}
+
+h1{
+  text-transform: uppercase;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact{
+  width: 600px;
+  height: 400px;
+  background-color: #301d1d;
+  color: white;
+  position: absolute;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid;
+  top:25%;
+  right:25%;
+  left:25%;
+  bottom:25%;
+  opacity: 0.68;
+  text-align: center;
+}

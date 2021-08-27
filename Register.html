@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../source/style.css">
+  <title>Create Account</title>
+</head>
+<body>
+  <div class = "main">
+  <a href="../code.html">Home</a>
+  <a href="./login.html"> Log In</a>
+  <a href="#"> Register</a>
+  <a href="./Contact.html">Contact Us </a>
+</div>
+
+<div class = " registration">
+  <h1>Create Account</h1>
+
+<form name = "registrationform" method="post" onsubmit="return correctinfo()">
+
+<label >Name:</label>
+<input type="text" id="fname" name="name" placeholder="Enter Name" required><b><span class = "errormessage"></span></b><br>
+
+<label >Email:</label>
+<input type="email" id="email" name="email" placeholder="Email address"required><b><span class = "errormessage"></span></b><br>
+
+<label > Phone Number: </label>
+<input type="phone" id="phone" name="phone" placeholder="Phone Numeber"required><b><span class = "errormessage"></span></b><br>
+
+<label >Confirm phone:</label>
+<input type="phone" id="phone" name="Confirmphone" placeholder="Re Enter Phone Number"required><b><span class = "errormessage"></span></b><br>
+
+<label for="DOB"> Date of Birth:</label>
+<input type="date" id="DOB" name="DOB" placeholder="Enter Date of Birth"required><b><span class = "errormessage"></span></b><br>
+
+<label >Address:</label>
+<input type="textarea" id="adress" name="Address" placeholder="Enter Address"required><b><span class = "errormessage"></span></b><br>
+
+<label >Password:</label>
+<input type="password" id="password" name="Password" placeholder="Enter Password"required><b><span class = "errormessage"></span></b><br>
+
+<label >Confirm password:</label>
+<input type="password" id="password" name="Confirm password" placeholder="Re-Enter Password"required><b><span class = "errormessage"></span></b><br>
+<input type="submit"  value="Submit">
+</div>
+</form>
+</body>
+</html>
