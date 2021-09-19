@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+
+\begin{document}
+\begin{figure}
+\centering
+\includegraphics[scale=0.35]{unnamed.png}\\ \vspace{0.1in}
+\vspace{0.1in}
+{\large NORTH SOUTH UNIVERSITY \\
+\small DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING }\\
+
+{CSE311L \\ DATABASE SYSTEMS LAB \\ SECTION : 02} \\ 
+\vspace{0.1in}
+{\small SEMESTER : SUMMER 2021}\\
+\vspace{0.15in}
+{\large FINAL PROJECT REPORT}\\ \vspace{0.09in}{OF}\\ 
+\vspace{0.1in}
+{\large{\textbf{\emph{\underline{"RAILWAY MANAGEMENT SYSTEM"}}}}}
+\begin{center}
+{\emph{Submitted By :}}\\ 
+\vspace{0.1in}
+\begin{tabular}{c c}
+\vspace{0.1in}
+NAME & ID\\ 
+\large MD. Fatin Habib Nihal   & 1911350642\\ 
+\large Faria Hassan Meem       & 1912524642
+\end{tabular}\\
+\vspace{0.25in}
+{\textbf{\emph{\large Course Faculty:}}}\\
+{MR. AHMED FAHMIN (AFN1)}\\
+{\emph{LECTURER}}\\ 
+\vspace{0.2in}
+{\textbf{\emph{Lab Instructor:}}}\\
+{NAZMUL ALAM DIPTO}\\
+\vspace{0.5in}
+\large{Submission Date: 19 September 2021}
+\end{center}
+\end{figure}
+\clearpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+ Bangladesh is a fascinating country with a rich and varied history and at present fairly few tourists.  Bangladesh has a largely British-built rail network linking most major towns and cities, including Dhaka, Chittagong and Sylhet. This project is about creating a database about the Railway Management System. The railway management system facilitates the passengers to inquire about the trains available on the basis of source and destination, booking and cancellation of tickets, inquire about the status of the booked or reserved seats and empty seats or cabins etc. Our aim is to design and develop a database maintaining the records of different trains, stations, and passengers.
+ \section{About Railway Management System}
+ Passengers can book their tickets for the train in which seats are available. For this, passenger has to provide the desired train name, number, destination and the date for which ticket is to be booked. Before booking a ticket for a passenger, the validity of train number and booking date is checked. Once the train number and booking date are validated, it is checked whether the seat is available. If yes, the ticket is booked with conﬁrm status and corresponding ticket ID is generated which is stored along with other details of the passenger. 
+ \section{Purpose and Goals of Railway Management System}
+ The main objective and goals are to design and develop a database maintaining the records of different trains, train status, and passengers. The record of train includes its number, name, destination, and days on which it is available, whereas record of train status includes dates for which tickets can be booked, total number of seats available, and number of seats already booked.	We will design complete database system that will cover all the aspects of train management system including reservation, schedules, customer’s records, and blog management to provide our customer feedback about their experiences on service provided by railway online system.
+ 
+ \section{Railway Management System Features}
+•	Book a ticket.\\
+•	Can cancel a booked ticket.\\
+•	Can check fares before booking.\\
+•	Can check how many times they use the Train.\\
+•	Can see the available trains and seats.\\
+•	Can give suggestions and reviews about the service.\\
+•	Can check their departure time and reaching time.\\
+•	Passengers will receive notifications about their ticket conformation and arrival time of the train.\\
+
+\section{USER STORY}
+Use Case 1:\\
+User X wants to go to Chittagong with his family via Train.\\So he checks if there is any train available on the desirable day.\\After checking he finds tickets available on that so he booked tickets for his family.\\ 
+Use case 2:
+User Z booked ticket for Sylhet but now he has an emergency and can't make it so now he will\\ Cancel the tickets by using RMS and \\ contacted for the refund.
+\section{Limitation of RMS}
+1.Not Ready for the commercial use\\
+2.Data Redundency\\
+3.Course based model that limits community development.
+
+\section{Solution Description}
+\section{Front-end plan}
+1. Home page\\
+2. Login page\\
+3. Register page\\
+4. User Profile\\
+5. Route Info\\
+6. Book A Ticket\\
+7. Contact Us\\
+\section{Back-End Plan}
+Back end development\\
+1. Account Creating, Password Recover:\\
+a. Sign up form, verification by email.\\
+b. Login\\
+c. Forgot Password\\
+2. Profile Management\\
+a. user Profile\\
+b. admin Profile\\
+3. Searching ticket for a destination\\
+4. Confirming booking ticket\\
+
+
+\section{Tools and Technologies}
+1. Database: Mysql\\
+2. Protocol: Http\\
+3.HTML\\
+4.CSS\\
+5.Javascript\\
+6.SMS API: https://bulksmsbd.com/\\
+7.PHP\\
+\section{Advantages of Railway Management System}
+1.First and most important advantage is a passenger can book a ticket by not going to the counter in person which saves a lot of time.\\
+2.Passenger don't have to wait long since nothing is manual here.\\
+3.They get chance to choose their desired seats\\
+4.If they want to cancel their ticket they can simply cancel it by using RMS \\
+
+\section{Some Screenshots of the project}
+\includegraphics[scale=0.35]{Capture3.JPG}\\ \vspace{0.1in}
+\includegraphics[scale=0.35]{Capture4.JPG}\\ \vspace{0.1in}
+\includegraphics[scale=0.35]{Capture2.JPG}\\ \vspace{0.1in}
+\includegraphics[scale=0.35]{Capture.JPG}\\ \vspace{0.1in}
+
+\section{Conclusion}
+Today our country is densely populated.Every public place is over crowded. Same way railway station and trains are also over crowded.So it is not possible to undertake journey without proper seat or berth. if duration of journey is long then it becomes very difficult and we cannot think of journey by train without reservation.\\So railway reservation system is very useful Even becomes very necessary. Therefore we must get our reservation in advance so that our purpose can be solved. So it has very good advantage because in case of emergency or in acute requirements we can book a ticket and can start journey.
+
+\end{document}
